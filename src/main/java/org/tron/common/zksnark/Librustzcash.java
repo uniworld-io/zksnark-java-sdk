@@ -1,6 +1,6 @@
 package org.tron.common.zksnark;
 
-class Librustzcash {
+public class Librustzcash {
   private static final LibrustzcashJNI INSTANCE = new LibrustzcashJNI();
 
   public void librustzcashInitZksnarkParams(String spend_path, String spend_hash,
